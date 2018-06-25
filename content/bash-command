@@ -5,3 +5,26 @@ Ctrl+L && command+T新开一个窗口</br>
 
 #idea
 psvm -Tab || sopl -Tab || fori -Tab</br>
+
+
+
+###bash快捷键摘自cbdy
+
+光标移动到行首：CTRL-A
+光标移动到行尾：CTRL-E
+光标向前移动一个字符：CTRL-B
+光标向后移动一个字符：CTRL-F
+退格：CTRL-H
+删除一个单词：CTRL-W
+删除光标前行：CTRL-U
+删除光标后行：CTRL-K
+撤回上面两个操作：CTRL-Y
+向前删除字符：CTRL-H
+向后删除字符：CTRL-D
+文件结尾EOF：CTRL-D
+清屏：CTRL-L
+回车：CTRL-M，CTRL-J
+回溯搜索历史：CTRL-R
+撤销操作：CTRL--
+在行首和光标两个位置间进行切换：CTRL-XX
+上一条命令：CTRL-P

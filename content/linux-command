@@ -1,0 +1,53 @@
+#yum
+1.安装yum
+2.使用yum安装rpm包
+3.
+yum check-update
+yum update
+yum list
+yum update <package_name>
+yum clean packages
+yum clean headers
+yum clean all
+yum install [package]
+yum remove [package]
+
+
+#rpm
+rpm -ihv</br>
+
+
+
+#network
+netstat -r</br>
+arp -a -d
+ifconfig
+
+
+
+###SELinux
+
+sestatus 查看</br>
+
+vim /etc/selinux/config
+ 
+SELINUX=enforcing改为SELINUX=disabled 关闭</br>
+
+reboot </br>
+
+
+
+###system
+reboot 重启</br>
+
+
+###
+systemctld start/stop/restart firewalld
+
+service iptables 
+
+
+ipconfig
+ifconfig
+
+
