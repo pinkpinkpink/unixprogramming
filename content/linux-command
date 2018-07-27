@@ -41,13 +41,13 @@ reboot </br>
 reboot 重启</br>
 
 
-###
+###防火墙
 systemctld start/stop/restart firewalld
 
-service iptables 
+service iptables status/start/stop/restart
 
-
-ipconfig
-ifconfig
+###IP地址
+windows：ipconfig
+Linux：ifconfig
 
 
