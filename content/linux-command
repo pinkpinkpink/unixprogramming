@@ -1,4 +1,4 @@
-#yum
+- yum
 1.安装yum
 2.使用yum安装rpm包
 3.
@@ -13,41 +13,43 @@ yum install [package]
 yum remove [package]
 
 
-#rpm
-rpm -ihv</br>
+- rpm
 
+rpm -ihv
 
+- network
 
-#network
-netstat -r</br>
+netstat -r
+
 arp -a -d
+
 ifconfig
 
+- SELinux
 
-
-###SELinux
-
-sestatus 查看</br>
+sestatus 查看
 
 vim /etc/selinux/config
  
-SELINUX=enforcing改为SELINUX=disabled 关闭</br>
+SELINUX=enforcing改为SELINUX=disabled 关闭
 
-reboot </br>
+reboot
+
+- system
+
+reboot 重启
 
 
+- 防火墙
 
-###system
-reboot 重启</br>
-
-
-###防火墙
 systemctld start/stop/restart firewalld
 
 service iptables status/start/stop/restart
 
-###IP地址
+- IP地址
+
 windows：ipconfig
+
 Linux：ifconfig
 
 
