@@ -40,6 +40,11 @@ gradle-app.setting
 
 
 .idea
+
 gradlew
+
 gradlew.bat
+
 settings.gradle
+
+.DS_Store
